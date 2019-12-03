@@ -1,0 +1,56 @@
+/*============================= */
+/*          Newsletter          */
+/* =============================*/
+
+#mt_newsletter {
+    padding: 100px 0;
+    position: relative;
+    background: $albi;
+    .started_heading {
+        h1 {
+            color: $shark;
+            font-weight: 700;
+            font-size: 70px;
+            line-height: 75px;
+            text-align: left;
+            margin-top: 0;
+            @media only screen and (max-width: 991px) {
+                font-size: 50px;
+                line-height: 50px;
+            }
+            @media only screen and (max-width: 767px) {
+                font-size: 32px;
+                line-height: 36px;
+                margin-bottom: 5px;
+            }
+            @media only screen and (max-width: 480px) {
+                font-size: 22px;
+                line-height: 22px;
+            }
+        }
+        p {
+            text-align: left;
+        }
+    }
+    .newsletter_form {
+        margin-top: 20px;
+        input[type="email"] {
+            border-color: $Gallery;
+            border-radius: 0;
+        }
+        .mt_btn_color {
+            background: $shark;
+            border-radius: 0;
+            box-shadow: none;
+            &:hover {
+                background: $shark;
+                transition: all ease 0.5s;
+            }
+        }
+    }
+
+}
+
+/* ================================== */
+/*          End Newsletter            */
+/* ================================== */

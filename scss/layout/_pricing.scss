@@ -1,0 +1,319 @@
+/* ====================== */
+/*        Pricing         */
+/* ====================== */
+
+// Pricing 1
+#mt_pricing {
+    padding: 100px 0;
+    @media only screen and (max-width: 640px) {
+        padding: 60px 0;
+    }
+    h2 {
+        margin-bottom: 100px;
+        @media only screen and (max-width: 640px) {
+            margin-bottom: 30px;
+        }
+    }
+    .col-md-4 {
+    	padding: 0;
+    	@media only screen and (max-width: 767px) {
+			padding: 0 15px;
+	    }
+    }
+    .main_pricing_conatiner.highlight_pricing {
+		margin-top: -30px;
+    	padding-bottom: 55px;
+    	@media only screen and (max-width: 767px) {
+			margin-top: 0;
+	    }
+        &:hover {
+            a {
+                color: $Alabaster;
+                background-color: $Alabaster;
+                transition: all 0.5s ease;
+                text-shadow: initial;
+                -ms-box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+                -o-box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+                -webkit-box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+                -moz-box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+                box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+            }
+        }
+        .choose_plan_btn {
+            text-align: center;
+            padding-bottom: 40px;
+            .mt_btn_grey {
+                height: 55px;
+                line-height: 55px;
+                padding: 0;
+                text-align: center;
+                width: 55px;
+                -webkit-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+                -moz-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+                -o-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+                -ms-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+                box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+                i {
+                    font-size: 45px;
+                }
+            }
+        }
+
+    }
+    .main_pricing_conatiner {
+        background: $white none repeat scroll 0 0;
+        overflow: hidden;
+        -webkit-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+        -moz-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+        -o-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+        -ms-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+        box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+        @media only screen and (max-width: 991px) {
+            margin-bottom: 40px;
+        }
+        &:hover {
+            a {
+                color: $Alabaster;
+                background-color: $tundora !important;
+                transition: all 0.5s ease;
+                text-shadow: initial;
+                -ms-box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+                -o-box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+                -webkit-box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+                -moz-box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+                box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+            }
+        }
+        .price {
+            padding: 35px 0 0;
+            text-align: center;
+            position: relative;
+            h2 {
+                font-family: montserrat;
+                font-weight: 500;
+                margin-bottom: 5px;
+                color: $shark;
+                @media only screen and (max-width: 480px) {
+                    font-size: 24px;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                }
+                .price_icon {
+				  display: block;
+				  margin-bottom: 6px;
+				}
+				.price_icon i {
+				  color: $shark;
+				  font-size: 65px;
+				}
+            }
+            .price_tag {
+                font-family: montserrat;
+                font-size: 48px;
+                font-weight: 500;
+                color: $shark;
+                position: relative;
+                @media only screen and (max-width: 480px) {
+                    font-size: 40px;
+                }
+                .currency {
+				  font-size: 28px;
+				  left: -18px;
+				  position: absolute;
+				}
+            }
+            .per_month {
+                font-family: open sans;
+                font-size: 14px;
+                font-weight: 100;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: $shark;
+            }
+        }
+        .price_listing {
+            padding: 25px 40px 8px;
+            @media only screen and (max-width: 480px) {
+                padding: 70px 0 25px 20px;
+            }
+        }
+        .choose_plan_btn {
+            text-align: center;
+            padding-bottom: 40px;
+            .mt_btn_white {
+                background: $Alabaster;
+                height: 55px;
+                line-height: 55px;
+                padding: 0;
+                text-align: center;
+                width: 55px;
+                border-color: $Alabaster !important;
+                -webkit-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+                -moz-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+                -o-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+                -ms-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+                box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+                i {
+                    font-size: 45px;
+                }
+            }
+        }
+    }
+}
+
+// Pricing 2
+#pricing_plan {
+    padding: 100px 0;
+    @media only screen and (max-width: 640px) {
+        padding: 60px 0;
+    }
+    h2 {
+        @media only screen and (max-width: 640px) {
+            margin-bottom: 30px;
+        }
+    }
+    .main_pricing_conatiner.highlight_pricing {
+        -ms-box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+        -o-box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+        -webkit-box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+        -moz-box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+        box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+        &:hover {
+            a {
+                border: 1px solid $tundora;
+                color: $Alabaster;
+                background-color: $Alabaster;
+                transition: all 0.5s ease;
+                text-shadow: initial;
+                -ms-box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+                -o-box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+                -webkit-box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+                -moz-box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+                box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+            }
+        }
+        .price {
+            background: $tundora;
+            h2 {
+                color: $white;
+            }
+            .price_tag {
+                color: $white;
+            }
+            .per_month {
+                color: $white;
+            }
+        }
+        .choose_plan_btn {
+            text-align: center;
+            padding-bottom: 40px;
+            .mt_btn_color {
+                height: 55px;
+                line-height: 55px;
+                padding: 0;
+                text-align: center;
+                width: 55px;
+                -webkit-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+                -moz-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+                -o-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+                -ms-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+                box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+                i {
+                    font-size: 45px;
+                }
+            }
+        }
+
+    }
+    .main_pricing_conatiner {
+        background: $white none repeat scroll 0 0;
+        overflow: hidden;
+        -webkit-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+        -moz-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+        -o-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+        -ms-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+        box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+        border-radius: 10px;
+        @media only screen and (max-width: 991px) {
+            margin-bottom: 40px;
+        }
+        &:hover {
+            a {
+                border: 1px solid $tundora;
+                color: $Alabaster;
+                background-color: $tundora !important;
+                transition: all 0.5s ease;
+                text-shadow: initial;
+                -ms-box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+                -o-box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+                -webkit-box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+                -moz-box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+                box-shadow: -1px 4px 36px 0 rgba(204, 204, 204, 0.61);
+            }
+        }
+        .price {
+            background: $Alabaster none repeat scroll 0 0;
+            padding: 35px 0 50px;
+            text-align: center;
+            position: relative;
+            h2 {
+                font-family: montserrat;
+                font-weight: 200;
+                margin-bottom: 5px;
+                @media only screen and (max-width: 480px) {
+                    font-size: 24px;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                }
+            }
+            .price_tag {
+                font-family: montserrat;
+                font-size: 48px;
+                font-weight: 500;
+                color: $dove-gray;
+                @media only screen and (max-width: 480px) {
+                    font-size: 40px;
+                }
+            }
+            .per_month {
+                font-family: open sans;
+                font-size: 14px;
+                font-weight: 100;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: $dove-gray;
+            }
+        }
+        .price_listing {
+            padding: 25px 40px 8px;
+            @media only screen and (max-width: 480px) {
+                padding: 70px 0 25px 20px;
+            }
+        }
+        .choose_plan_btn {
+            text-align: center;
+            padding-bottom: 40px;
+            .mt_btn_white {
+                background: $Alabaster;
+                height: 55px;
+                line-height: 55px;
+                padding: 0;
+                text-align: center;
+                width: 55px;
+                border-color: $Alabaster;
+                -webkit-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+                -moz-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+                -o-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+                -ms-box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+                box-shadow: 2px 2px 5px 0 rgba(204, 204, 204, 0.61);
+                i {
+                    font-size: 45px;
+                }
+            }
+        }
+    }
+}
+
+/* =========================== */
+/*        End Pricing          */
+/* =========================== */

@@ -1,0 +1,84 @@
+/* ====================== */
+/*      Testimonials      */
+/* ====================== */
+
+#mt_testimonial {
+    padding: 100px 0;
+    background: $Alabaster;
+    @media only screen and (max-width: 640px) {
+        padding: 60px 0;
+    }
+    h2 {
+        @media only screen and (max-width: 640px) {
+            margin-bottom: 30px;
+        }
+    }
+    .owl-dots {
+        text-align: center;
+        margin-top: 30px;
+        @media only screen and (max-width: 640px) {
+            margin-top: 10px;
+        }
+        .owl-dot.active {
+            background: $shark none repeat scroll 0 0;
+            border-radius: 5px;
+            height: 5px;
+            transition: all 0.5s ease 0s;
+            width: 20px;
+        }
+        .owl-dot {
+            border: 1px solid $shark;
+            border-radius: 5px;
+            display: inline-block;
+            height: 5px;
+            margin-right: 12px;
+            width: 20px;
+        }
+    }
+    .testimonial_main {
+        background: $white;
+        padding: 65px 25px;
+        margin: 0 0 8px 0px;
+        padding-bottom: 25px;
+        float: left;
+        border-radius: 8px;
+        width: 100%;
+        @media only screen and (max-width: 640px) {
+            text-align: center;
+            margin: 0 0 8px;
+        }
+        p {
+            margin-bottom: 6px !important;
+            position: relative;
+            &:before {
+                content: "\f10d";
+                font-family: fontawesome;
+                font-size: 50px;
+                left: -30px;
+                opacity: 0.2;
+                position: absolute;
+                top: -30px;
+                color: #ccc;
+            }
+            @media only screen and (max-width: 640px) {
+                font-size: 14px;
+                line-height: 22px;
+            }
+        }
+        em {
+            font-size: 16px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            color: $shark;
+        }
+        span {
+            display: block;
+            font-size: 12px;
+            margin-top: -4px;
+        }
+    }
+}
+
+/* =========================== */
+/*      End Testimonials       */
+/* =========================== */

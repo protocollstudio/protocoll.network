@@ -1,0 +1,75 @@
+/* ====================== */
+/*        Services        */
+/* ====================== */
+
+#mt_services {
+    padding: 100px 0;
+    background: $Alabaster;
+    @media only screen and (max-width: 640px) {
+        padding: 60px 0;
+    }
+    h2 {
+        @media only screen and (max-width: 640px) {
+            margin-bottom: 30px;
+        }
+    }
+    h3 {
+        margin-top:0;
+        margin-bottom:0;
+        @media only screen and (max-width: 480px) {
+            font-size: 20px;
+        }
+    }
+    .box {
+        padding: 15px 30px;
+        background: $white;
+        margin-top: 30px;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -webkit-box-shadow: 0 3px 9px -2px rgba(208,206,206,1);
+		-moz-box-shadow: 0 3px 9px -2px rgba(208,206,206,1);
+		box-shadow: 0 3px 9px -2px rgba(208,206,206,1);
+        @media only screen and (min-width:768px) and (max-width: 991px) {
+            margin-bottom: 30px;
+        }
+
+        &:hover {
+            -webkit-box-shadow: 0 5px 25px 0 rgba(5, 5, 5, 0.2);
+            -moz-box-shadow: 0 5px 25px 0 rgba(5, 5, 5, 0.2);
+            -o-box-shadow: 0 5px 25px 0 rgba(5, 5, 5, 0.2);
+            -ms-box-shadow: 0 5px 25px 0 rgba(5, 5, 5, 0.2);
+            box-shadow: 0 5px 25px 0 rgba(5, 5, 5, 0.2);
+            transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+        }
+        .icon {
+            text-align: center;
+            margin: 20px 0;
+            i {
+                font-size: 50px;
+                color: $shark;
+            }
+        }
+        h3 {
+            margin-bottom: 23px;
+            margin-top: 0;
+            text-align: center;
+            color: $tundora;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        p {
+            margin-bottom: 30px;
+            text-align: left;
+        }
+    }
+}
+/* ========================== */
+/*        End Services        */
+/* ========================== */

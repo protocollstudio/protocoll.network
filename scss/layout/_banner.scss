@@ -1,0 +1,281 @@
+/* ====================== */
+/*         Banner         */
+/* ====================== */
+#mt_banner {
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-color: $albi;
+    @media only screen and (max-width: 991px) {
+        background-position: 70% 0;    
+    }
+    .bg_home {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -9999;
+    }
+    .static {
+        position: static;
+    }
+    .relative {
+        position: relative;
+    }
+    .banner-wrapper {
+        position: absolute;
+        top: 35%;
+        z-index: 18;
+        width: 100%;
+        margin: -20px auto 0;
+    }
+    .banner-caption {
+        color: $white;
+        margin: 0 auto;
+        padding: 15px;
+        text-align: left;
+        .mt_btn_color {
+            background: $white;
+            color: $tundora;
+        }
+        h1 {
+            font-size: 65px;
+            margin: 0 auto;
+            font-weight: 900;
+            color: $white;
+            line-height: 75px;
+            @media only screen and (max-width: 991px) {
+                font-size: 45px;
+                line-height: 52px;
+            }
+            @media only screen and (max-width: 480px) {
+                font-size: 24px;
+                line-height: 32px;
+            }
+            @media only screen and (max-width: 360px) {
+                font-size: 18px;
+            }
+            span {
+                font-weight: 900;
+                color: $white;
+                display: block;
+            }
+        }
+        p {
+            text-align: left;
+            font-size: 36px;
+            margin: 15px 0 22px 0px;
+            color: $white !important;
+            @media only screen and (max-width: 991px) {
+                font-size: 24px;
+                margin: 15px 0 5px;
+            }
+            @media only screen and (max-width: 480px) {
+                font-size: 18px;
+            }
+        } 
+        .banner_down {
+          border-radius: 50%;
+          font-size: 36px;
+          height: 50px;
+          margin-top: 20px;
+          padding: 0;
+          text-align: center;
+          width: 50px;
+        }
+    }
+}
+// General Banner
+#mt_general_banner {
+    padding: 145px 0 100px 0;
+    @media only screen and (max-width: 767px) {
+        padding: 110px 0 50px;
+    }
+    .banner-caption {
+        width: 50%;
+        @media only screen and (max-width: 767px) {
+            width: 100%;
+        }
+        h1 {
+            font-size: 40px;
+            font-weight: 300;
+            margin: 0;
+            text-transform: uppercase;
+            @media only screen and (max-width: 767px) {
+                font-size: 32px;
+            }
+            @media only screen and (max-width: 480px) {
+                font-size: 24px;
+            }
+        }
+        p {
+            margin: 0;
+        }
+    }
+}
+
+// Home 2 Simple Banner
+#mt_banner_simple {
+    position: relative;
+    padding: 100px 0 0;
+    .banner-caption {
+        margin: 0 auto;
+        text-align: center;
+        width: 60%;
+        padding: 0 15px;
+        @media only screen and (max-width: 991px) {
+            width: 100%;
+        }
+        h2 {
+            font-size: 37px;
+            font-weight: 300;
+            line-height: 50px;
+            @media only screen and (max-width: 767px) {
+                font-size: 26px;
+                line-height: 38px;
+            }
+        }
+    }
+}
+
+//Home 3 Slider
+#mt_banner_slider {
+    position: relative;
+    height: 400px;
+    .banner_caption_text {
+        margin: 165px auto 0;
+        text-align: center;
+        width: 60%;
+        padding: 0 15px;
+        @media only screen and (max-width: 991px) {
+            width: 100%;
+        }
+        h2 {
+            font-size: 50px;
+            font-weight: 600;
+            line-height: 50px;
+            margin-bottom: 15px;
+            @media only screen and (max-width: 767px) {
+                font-size: 26px;
+                line-height: 38px;
+            }
+        }
+        a {
+            font-size: 16px;
+        }
+    }
+}
+
+//Home 4 Banner
+#mt_banner_border {
+    position: relative;
+    padding: 200px 0;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    background-color: $albi;
+    .banner-caption {
+        left: 50%;
+        padding: 0 15px;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+        border:8px solid #fff;
+        @media only screen and (max-width: 991px) {
+            width: 100%;
+        }
+        h2 {
+            font-size: 37px;
+            font-weight: 600;
+            line-height: 50px;
+            @media only screen and (max-width: 767px) {
+                font-size: 26px;
+                line-height: 38px;
+            }
+        }
+    }
+}
+
+// Home 5 Banner
+#mt_banner_static_header {
+    position: relative;
+    height: 430px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    background-color: $albi;
+    .banner-caption {
+        left: 50%;
+        padding: 0 15px;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+        @media only screen and (max-width: 991px) {
+            width: 100%;
+        }
+        h2 {
+            font-size: 37px;
+            font-weight: 600;
+            line-height: 50px;
+            @media only screen and (max-width: 767px) {
+                font-size: 26px;
+                line-height: 38px;
+            }
+        }
+    }
+}
+
+/* Slider Section */
+
+.swiper-container {
+    height: 100%;
+    margin: 60px;
+}
+
+.swiper-slide {
+    overflow: hidden;
+}
+
+.slide-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+}
+.swiper-button-next.swiper-button-white, .swiper-container-rtl .swiper-button-prev.swiper-button-white,
+.swiper-button-prev.swiper-button-white, .swiper-container-rtl .swiper-button-next.swiper-button-white {
+    background-image: none !important;
+    &:before {
+        content: '\f3d6';
+        font-family: 'Ionicons';
+        font-size: 45px;
+        position: absolute;
+        right: 25px;
+        color: $shark;
+    }
+}
+.swiper-button-prev.swiper-button-white, .swiper-container-rtl .swiper-button-next.swiper-button-white {
+    &:before {
+        content: '\f3d5';
+        left: 25px;
+    }
+}
+
+/* ========================== */
+/*         End Banner         */
+/* ========================== */
